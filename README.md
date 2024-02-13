@@ -1,54 +1,45 @@
+# Next.Js Website Tutorial: Create a Stunning Portfolio Website with Nextjs, Tailwind CSS and Framer-motion🌟
 
-```markdown
-# My Portfolio
+![GitHub stars](https://img.shields.io/github/stars/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=ApacheSpark&label=Stars)&nbsp;&nbsp;
+![GitHub forks](https://img.shields.io/github/forks/codebucks27/Next.js-Developer-Portfolio-Starter-Code?style=social&logo=KashFlow&maxAge=3600)&nbsp;&nbsp;
+![Github Followers](https://img.shields.io/github/followers/codebucks27.svg?style=social&label=Follow)&nbsp;&nbsp;<br />
 
-Welcome to my portfolio! Here you can find details about my projects, skills, and experience.
+This repository contains starter code for Portfolio website created using NextJs. <br />
 
-## Projects
+For Demo and Final Code checkout following link👇: <br />
+[Nextjs Portfolio Website](https://devdreaming.com//videos/nextjs-tutorial-build-portfolio-tailwind-css-framer-motion#code-links) <br />
 
-- **Project 1**: Brief description and link (if hosted).
-- **Project 2**: Brief description and link (if hosted).
-- **Project 3**: Brief description and link (if hosted).
+If you want to learn how to create it please follow below tutorial👇: <br />
+https://youtu.be/Yw7yWHigGKI <br />
+[![YouTube Video Views](https://img.shields.io/youtube/views/Yw7yWHigGKI?style=social)](https://youtu.be/Yw7yWHigGKI)<br />
 
-## Skills
+<h3 align="left">▶ Support me via:</h3><br />
+<p><a href="https://www.buymeacoffee.com/CodeBucks" target="_blank"> <img  src="https://www.buymeacoffee.com/assets/img/guidelines/download-assets-sm-1.svg" height="50" width="210" alt="CodeBucks" ></img></a></p><br />
 
-- Skill 1
-- Skill 2
-- Skill 3
+### Images of The Portfolio Website:
 
-## Experience
+![Nextjs Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-light-desktop.png)
+![Nextjs Portfolio Website Dark Mode](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/home-dark-desktop.png)
+![Next.js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-desktop.png)
+![Next js Portfolio Website](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-dark-desktop.png)
+![Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-desktop.png)
+![Responsive Portfolio Website In Nextjs](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/about-light-mobile.png)
+![Responsive Portfolio Website In Next js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/projects-light-mobile.png)
+![Mobile Responsive Portfolio Website In Next.js](https://github.com/codebucks27/Next.js-Developer-Portfolio-Starter-Code/blob/main/website%20images/articles-light-mobile.png)
 
-- Company 1: Role and responsibilities.
-- Company 2: Role and responsibilities.
 
-## How to Use
+### Resources Used in This Project
 
-To get started with my projects locally, you can clone this repository using the following steps:
+- Profile image in the home page created by using https://www.midjourney.com/ tool.
+- Profile image in the about page by [Albert Dera](https://unsplash.com/@albertdera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
+on [Unsplash](https://unsplash.com/photos/ILip77SbmOE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).
+- Fonts from https://fonts.google.com/ <br />
+- Icons from https://iconify.design/ <br />
+- LightBulb Svg from https://lukaszadam.com/illustrations <br />
 
-1. Open your terminal.
-2. Navigate to the directory where you want to clone the repository.
-3. Run the following command:
+### External Libraries used in this project:
 
-```bash
-git clone https://github.com/yourusername/yourportfolio.git
-```
+- [framer-motion](https://www.framer.com/motion/) <br />
+- [Tailwind css](https://tailwindcss.com/) <br />
 
-4. Navigate into the cloned directory:
 
-```bash
-cd yourportfolio
-```
-
-5. Follow the README in each project directory for specific setup and usage instructions.
-
-## Contributing
-
-If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
-
-## Contact
-
-- Email: youremail@example.com
-- LinkedIn: [Your LinkedIn Profile](https://linkedin.com/in/yourusername)
-```
-
-Replace placeholders like `yourusername`, `yourportfolio`, and others with your actual details. This will provide visitors with a clear understanding of your portfolio and how they can interact with it.

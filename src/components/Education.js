@@ -1,7 +1,9 @@
 import React, { useRef } from "react";
-
+import Image from "next/image";
+import educationpic from "../../public/images/education.png";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
+import { EducationIcon } from "./Icons";
 
 const Details = ({ type, time, place, info }) => {
   const ref = useRef(null);
@@ -37,7 +39,7 @@ const Education = () => {
   return (
     <div className="my-62">
       <h2 className="font-bold text-8xl mt-60 mb-60 w-full text-center  md:text-6xl xs:text-4xl md:mb-16">
-        Education
+      Education
       </h2>
       <div ref={ref} className="w-[75%] mx-auto relative ld:w-[90%] md:w-full">
         <motion.div
@@ -59,7 +61,7 @@ const Education = () => {
             info="CPGA : 8.67"
           />
           <Details
-            type="Higher Secondary School of Education (HSLC) (12th)"
+            type="Higher Secondary School of Education (HSC) (12th)"
             time="2020-2021"
             place="Goodsam Matriculation Higher Secondary School"
             info="Percentage : 92.6 %"
@@ -71,8 +73,16 @@ const Education = () => {
             info="Percentage : 91.6 %"
           />
         </ul>
+        <div className="absolute -right-1/3 bottom-8 inline-block w-50 -top-1/4 md:hidden">
+          <Image
+            src={educationpic}
+            alt="Nithish Kumar"
+            className="w-full h-auto "
+          />
+        </div>
       </div>
     </div>
+    
   );
 };
 export default Education;

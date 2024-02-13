@@ -172,8 +172,8 @@ const projects = () => {
                 title="Video Summarizer"
                 img={videoSummarizer}
                 summary="lora ai"
-                link="/"
-                github="#"
+                link="https://github.com/mrnithish/Videx-Video-Summarizer"
+                github="https://github.com/mrnithish/Videx-Video-Summarizer"
                 type="Project"
               />
             </div>

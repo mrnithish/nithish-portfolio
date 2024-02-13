@@ -1,7 +1,8 @@
 import React, { useRef } from "react";
-
+import experiencepic from "../../public/images/experience.png";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
+import Image from "next/image";
 
 const Details = ({ position, company, companyLink, time, address, work }) => {
   const ref = useRef(null);
@@ -88,6 +89,13 @@ const Experience = () => {
             work="Developed a comprehensive e-commerce website for the sale and purchase of millets and whole grains. Created a sophisticated model that seamlessly integrated database operations and login authentication, ensuring secure access and efficient data management.Implemented server-side and business logic components under the supervision of senior developers. Participated in code reviews to learn from senior developers and improve coding skills."
           />
         </ul>
+        <div className="absolute -right-1/3 bottom-8 inline-block w-50 top-1/6 md:hidden">
+          <Image
+            src={experiencepic}
+            alt="Nithish Kumar"
+            className="w-full h-auto "
+          />
+        </div>
       </div>
     </div>
   );

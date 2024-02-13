@@ -11,6 +11,8 @@ import communication from "../../public/images/articles/communication.jpg";
 import dbms from "../../public/images/articles/dbms.png";
 import ipad from "../../public/images/articles/ipad.jpeg";
 import snyg from "../../public/images/articles/snyg.png";
+import dsa from "../../public/images/articles/DSA.png";
+import school from "../../public/images/articles/School.png";
 import { LinkArrow } from "@/components/Icons";
 import TransitionEffect from "@/components/TransitionEffect";
 import { DM_Sans } from "next/font/google";
@@ -147,6 +149,18 @@ const articles = () => {
             All Articles
           </h2>
           <ul className="mb-16">
+          <Article
+              title="Top 10 Strategies to Ace Problem Solving, Master Data Structures, and Conquer Algorithms"
+              date="February 2024"
+              link="https://medium.com/@g.nithish100/embarking-on-the-journey-of-algorithmic-problem-solving-demands-a-strategic-mindset-to-overcome-8de876185f4b"
+              img={dsa}
+            />
+          <Article
+              title="The Unseen Curriculum: Addressing Hidden Challenges of Students"
+              date="January 2024"
+              link="https://medium.com/@g.nithish100/students-thinking-left-behind-6e0c833d2411"
+              img={school}
+            />
           <Article
               title="Hackathon Heroics: 10 Essential Winning Moves"
               date="December 2023"
