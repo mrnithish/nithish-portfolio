@@ -25,9 +25,8 @@ const CustomLink = ({ href, title, className = "" }) => {
 
       <span
         className={`h-[1px] inline-block bg-dark absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300 ${
-              router.asPath === href ? "w-full" : "w-0"
-            } dark:bg-light`}
+            group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? "w-full" : "w-0"
+          } dark:bg-light`}
       >
         &nbsp;
       </span>
@@ -52,9 +51,8 @@ const CustomMobileLink = ({ href, title, className = "", toggle }) => {
 
       <span
         className={`h-[1px] inline-block bg-light absolute left-0 -bottom-0.5
-            group-hover:w-full transition-[width] ease duration-300 ${
-              router.asPath === href ? "w-full" : "w-0"
-            } dark:bg-dark`}
+            group-hover:w-full transition-[width] ease duration-300 ${router.asPath === href ? "w-full" : "w-0"
+          } dark:bg-dark`}
       >
         &nbsp;
       </span>
@@ -77,19 +75,16 @@ const NavBar = () => {
         onClick={handleClick}
       >
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm  ${
-            isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm  ${isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm my-0.5 ${
-            isOpen ? "opacity-0" : "opacity-100"
-          }`}
+          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm my-0.5 ${isOpen ? "opacity-0" : "opacity-100"
+            }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm  ${
-            isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
-          }`}
+          className={`bg-dark dark:bg-light block h-0.5 w-6 duration-300 ease-out rounded-sm  ${isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+            }`}
         ></span>
       </button>
 
@@ -99,6 +94,7 @@ const NavBar = () => {
           <CustomLink href="/about" title="About" className="mx-4" />
           <CustomLink href="/projects" title="Projects" className="mx-4" />
           <CustomLink href="/articles" title="Articles" className="ml-4" />
+          <CustomLink href="/more" title="More" className="ml-6" />
         </nav>
 
         <nav className="flex items-center justify-centern flex-wrap">
@@ -156,7 +152,7 @@ const NavBar = () => {
           >
             <DataCamp />
           </motion.a>
-          
+
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
             className={`"ml-3 flex items-center justify-center rounded-full p-1"
@@ -202,6 +198,12 @@ const NavBar = () => {
             <CustomMobileLink
               href="/articles"
               title="Articles"
+              className=""
+              toggle={handleClick}
+            />
+            <CustomMobileLink
+              href="/more"
+              title="More"
               className=""
               toggle={handleClick}
             />

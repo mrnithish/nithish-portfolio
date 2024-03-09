@@ -6,6 +6,7 @@ import Image from "next/image";
 import profilepic from "../../public/images/profile/dev.jpg";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
+import Services from "@/components/Services";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Empy from "@/components/Empy";
@@ -54,14 +55,14 @@ const about = () => {
                 Biography
               </h2>
               <p className="font-medium">
-                Hi, I&apos;m Nithish Kumar. A passionate data scientist seeking to make a meaningful 
-                impact through advanced analytics and machine learning. Dedicated to unlocking 
+                Hi, I&apos;m Nithish Kumar. A passionate data scientist seeking to make a meaningful
+                impact through advanced analytics and machine learning. Dedicated to unlocking
                 valuable insights from complex datasets and driving data-informed decision-making.
-                Committed to collaborating with interdisciplinary teams and delivering scalable solutions for optimizing 
+                Committed to collaborating with interdisciplinary teams and delivering scalable solutions for optimizing
                 operational efficiency and fueling business growth.
               </p>
               <p className="my-4 font-medium">
-                Continuously learning and embracing emerging technologies 
+                Continuously learning and embracing emerging technologies
                 to revolutionize industries and contribute to the success of forward-thinking organizations.
                 It &apos;s about solving problems and creating intuitive,
                 enjoyable experiences for users.{" "}
@@ -117,6 +118,7 @@ const about = () => {
             </div>
           </div>
           <Skills />
+          <Services />
           <Experience />
           <Education />
           <Empy />
