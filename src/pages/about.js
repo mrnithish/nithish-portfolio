@@ -11,7 +11,7 @@ import Experience from "@/components/Experience";
 import Education from "@/components/Education";
 import Empy from "@/components/Empy";
 import TransitionEffect from "@/components/TransitionEffect";
-
+//
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
   const motionValue = useMotionValue(0);

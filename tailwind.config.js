@@ -2,6 +2,7 @@
 
 const {fontFamily}=require('tailwindcss/defaultTheme')
 
+
 module.exports = {
   content: [
       // Or if using `src` directory:

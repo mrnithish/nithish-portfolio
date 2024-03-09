@@ -9,7 +9,7 @@ import HireMe from "@/components/HireMe";
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 import TransitionEffect from "@/components/TransitionEffect";
 
-
+//
 export default function Home() {
   return (
     <>

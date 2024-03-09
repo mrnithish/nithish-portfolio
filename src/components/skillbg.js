@@ -9,7 +9,7 @@ import { LiaPhotoVideoSolid } from "react-icons/lia";
 
 
 const MotionLink = motion(Link);
-
+//
 //frontend
 
 const Skillbg = () => {

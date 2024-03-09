@@ -4,7 +4,7 @@ import educationpic from "../../public/images/education.png";
 import { motion, useScroll } from "framer-motion";
 import LiIcon from "./LiIcon";
 import { EducationIcon } from "./Icons";
-
+//
 const Details = ({ type, time, place, info }) => {
   const ref = useRef(null);
   return (

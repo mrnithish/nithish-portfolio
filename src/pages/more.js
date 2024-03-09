@@ -27,7 +27,7 @@ import {
     SunIcon,
     MoonIcon,
 } from "@/components/Icons";
-
+//
 const FramerImage = motion(Image);
 
 const MovingImg = ({ title, img, link }) => {

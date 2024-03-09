@@ -14,7 +14,7 @@ import { GitCard, GithubCard, DockerCard, HostingerCard, VSCodeCard, PhotoshopCa
 import { Datamining, Pythonsvg, Java, C, Excel, Tableu, Sql, Wordpress, } from "./Icons";
 import Logo from "./Logo";
 import { Html } from "next/document";
-
+//
 const Skills = () => {
   return (
 

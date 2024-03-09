@@ -1,7 +1,7 @@
 import React from "react";
 import { CircularText } from "./Icons";
 import Link from "next/link";
-
+//
 const HireMe = () => {
   return (
     <div className="fixed left-4 bottom-4 flex items-center justify-center overflow-hidden md:-left-1/2 md:right-auto md:top-1/4 md:bottom-auto md:absolute sm:left-0">

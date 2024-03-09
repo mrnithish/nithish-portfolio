@@ -16,7 +16,7 @@ import school from "../../public/images/articles/School.png";
 import { LinkArrow } from "@/components/Icons";
 import TransitionEffect from "@/components/TransitionEffect";
 import { DM_Sans } from "next/font/google";
-
+//
 const FramerImage = motion(Image);
 
 const MovingImg = ({ title, img, link }) => {

@@ -4,7 +4,7 @@ import Layout from "@/components/layout";
 import { EducationIcon, Pythonwhitesvg } from "./Icons";
 import Image from "next/image";
 import { Datamining, Pythonsvg, Datascience, Seo, Web, Android } from "./Icons";
-
+//
 const Services = () => {
     return (
 

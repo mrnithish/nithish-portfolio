@@ -17,7 +17,7 @@ import justice_league from "../../public/images/projects/Modern Minimalist Simpl
 import videoSummarizer from "../../public/images/projects/video summarizer.png"
 import spamMailDetection from "../../public/images/projects/spam mail.png"
 import TextToImage from "../../public/images/projects/Text to Image.png"
-
+//
 const FramerImage = motion(Image);
 
 const FeauteredProjects = ({ type, title, summary, img, link, github }) => {
